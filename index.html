@@ -1,156 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Pilgrimage & Photo Scout — Historical Christianity Sites</title>
+<title>Pilgrimage & Photo Scout</title>
 <style>
-  :root{ --bg:#0e1014; --card:#171a21; --ink:#eef1f6; --mut:#9aa3b2; --gold:#d9a441; --line:#262b35; }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  header{padding:34px 20px 18px;max-width:920px;margin:0 auto}
-  h1{font-size:25px;margin:0 0 6px;letter-spacing:.2px}
-  .sub{color:var(--mut);font-size:15px;max-width:680px}
-  .legend{color:var(--mut);font-size:13px;margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
-  main{max-width:920px;margin:0 auto;padding:8px 16px 60px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 20px;margin:18px 0}
-  .tier{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;
-        padding:3px 9px;border-radius:999px;margin-bottom:10px}
-  .t1{background:rgba(217,164,65,.16);color:var(--gold);border:1px solid rgba(217,164,65,.4)}
-  .t2{background:rgba(154,163,178,.12);color:var(--mut);border:1px solid var(--line)}
-  h2{font-size:20px;margin:2px 0 2px}
-  .where{color:var(--gold);font-size:13.5px;font-weight:600;margin:0 0 10px}
-  .why{color:#cdd3dd;font-size:14.5px;margin:0 0 8px}
-  .shot{font-size:13.5px;color:var(--ink);background:#11141a;border-left:3px solid var(--gold);
-        padding:9px 12px;border-radius:6px;margin:10px 0 14px}
-  .shot b{color:var(--gold)}
-  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-  .grid img{width:100%;height:200px;object-fit:cover;border-radius:10px;display:block;background:#222}
-  @media(max-width:620px){ .grid{grid-template-columns:1fr} .grid img{height:auto;max-height:420px} }
-  footer{max-width:920px;margin:0 auto;padding:0 20px 50px;color:var(--mut);font-size:12.5px}
-  a{color:var(--gold)}
-</style>
-</head>
-<body>
+ :root{--bg:#0e1014;--card:#171a21;--ink:#eef1f6;--mut:#9aa3b2;--gold:#d9a441;--line:#262b35}
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+ header{padding:34px 20px 18px;max-width:960px;margin:0 auto}
+ h1{font-size:25px;margin:0 0 6px}
+ .sub{color:var(--mut);font-size:15px;max-width:720px}
+ .how{background:#11141a;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0 0;font-size:14px;color:#cdd3dd;max-width:720px}
+ .how b{color:var(--gold)}
+ .legend{color:var(--mut);font-size:13px;margin-top:14px;border-top:1px solid var(--line);padding-top:12px;max-width:720px}
+ main{max-width:960px;margin:0 auto;padding:8px 16px 60px}
+ .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 20px;margin:18px 0}
+ .tier{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:10px}
+ .t1{background:rgba(217,164,65,.16);color:var(--gold);border:1px solid rgba(217,164,65,.4)}
+ .t2{background:rgba(154,163,178,.12);color:var(--mut);border:1px solid var(--line)}
+ h2{font-size:20px;margin:2px 0 2px}
+ .where{color:var(--gold);font-size:13.5px;font-weight:600;margin:0 0 10px}
+ .why{color:#cdd3dd;font-size:14.5px;margin:0 0 8px}
+ .shot{font-size:13.5px;background:#11141a;border-left:3px solid var(--gold);padding:9px 12px;border-radius:6px;margin:10px 0 14px}
+ .shot b{color:var(--gold)}
+ .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+ .grid img{width:100%;height:150px;object-fit:cover;border-radius:9px;display:block;background:#222;cursor:zoom-in}
+ @media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)} .grid img{height:160px}}
+ .mk{margin-top:14px;width:100%;background:rgba(217,164,65,.12);color:var(--gold);border:1px solid rgba(217,164,65,.4);border-radius:10px;padding:11px;font-size:14px;font-weight:600;cursor:pointer}
+ .mk:active{transform:scale(.99)}
+ footer{max-width:960px;margin:0 auto;padding:0 20px 50px;color:var(--mut);font-size:12.5px}
+ a{color:var(--gold)}
+</style></head><body>
 <header>
-  <h1>Pilgrimage &amp; Photo Scout ✝️📸</h1>
-  <div class="sub">Historical Christianity sites, ranked for the <b>banger photo</b> — what each one looks like,
-  the exact shot to frame yourself in, and how to get there on your points. Tap any photo to enlarge.</div>
-  <div class="legend"><b style="color:var(--gold)">★ Tier 1</b> = unique, low-saturation, build-a-trip-around-the-photo.
-  &nbsp; <b>Tier 2</b> = iconic, but the shot is everywhere already. &nbsp; Gateways shown with your UR/MR reachability.</div>
+ <h1>Pilgrimage &amp; Photo Scout ✝️📸</h1>
+ <div class="sub">Historical Christianity sites, ranked for the <b>banger photo</b> — 7 real reference shots of each place, the exact angle to frame yourself in, and how to get there on your points. Tap a photo to enlarge.</div>
+ <div class="how"><b>Want yourself in the shot?</b> Tap <b>“Copy prompt”</b> on any site, open <b>ChatGPT</b> (or Gemini), attach one of your travel selfies, paste the prompt, and it’ll render a photorealistic mockup of you there — in your black-fit, centered, editorial style. Every angle here is one real people actually shoot, so the result is achievable, not imaginary.</div>
+ <div class="legend"><b style="color:var(--gold)">★ Tier 1</b> = unique, low-saturation, build-a-trip-around-the-photo. &nbsp; <b>Tier 2</b> = iconic, but the shot is everywhere already.</div>
 </header>
 <main>
-
   <div class="card">
     <span class="tier t1">★ Tier 1 — top banger</span>
     <h2>Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)</h2>
     <div class="where">Gateway: ADD (Addis Ababa) → Lalibela • Reach: Ethiopian Airlines via Aeroplan (UR + MR)</div>
     <p class="why">An entire cross-shaped church carved <i>down into solid rock</i> ~900 years ago. Almost nobody on your feed has this. Add white-robed Orthodox priests and it's the most distinctive image on the whole list.</p>
-    <div class="shot"><b>The shot:</b> stand on the upper rim looking straight down into the cross — you small at the edge, the church glowing below. Osmo Pocket 3 for the wide drop.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/lalibela_p1.jpg" alt="Aerial of the cross-shaped Church of St. George">
-      <img loading="lazy" src="img/lalibela_p2.jpg" alt="Tall rock facade of Bete Giyorgis">
-      <img loading="lazy" src="img/lalibela_p3.jpg" alt="Ethiopian Orthodox priest with cross">
-    </div>
+    <div class="shot"><b>The shot:</b> Stand on the upper rim looking down into the cross — you small at the edge, the church glowing below. Osmo Pocket 3 for the wide drop.</div>
+    <div class="grid"><img loading="lazy" src="img/lalibela_p1.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p2.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p3.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p4.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p5.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p6.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"><img loading="lazy" src="img/lalibela_p7.jpg" alt="Lalibela, Ethiopia — Bete Giyorgis (Church of St. George)"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: the rim of the cross-shaped, rock-hewn Church of St. George (Bete Giyorgis) in Lalibela, Ethiopia. He stands at the upper edge of the deep rock trench, the cross-shaped church glowing in warm late-afternoon light below and behind him. Shot slightly from above to reveal the cross form.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t1">★ Tier 1 — top banger</span>
     <h2>Meteora, Greece — Monasteries on the Pillars</h2>
     <div class="where">Gateway: ATH (Athens) → ~4 hrs to Kalambaka • Reach: many UR/MR partners to Athens</div>
     <p class="why">Eastern Orthodox monasteries perched on sheer rock pillars, mist swirling below. Looks computer-generated. Pairs with a "Paul's footsteps" Greece trip (Athens, Corinth, Patmos).</p>
-    <div class="shot"><b>The shot:</b> golden hour from the road viewpoints — you on a foreground ledge, a monastery floating on its pillar behind. Mist days are the magic.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/meteora_p1.jpg" alt="Moody monastery in mist">
-      <img loading="lazy" src="img/meteora_p2.jpg" alt="Wide valley of rock pillars and monasteries">
-      <img loading="lazy" src="img/meteora_p3.jpg" alt="Monastery on rock under blue sky">
-    </div>
+    <div class="shot"><b>The shot:</b> Golden hour from the road viewpoints — you on a foreground ledge, a monastery floating on its pillar behind. Mist days are the magic.</div>
+    <div class="grid"><img loading="lazy" src="img/meteora_p1.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p2.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p3.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p4.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p5.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p6.jpg" alt="Meteora, Greece — Monasteries on the Pillars"><img loading="lazy" src="img/meteora_p7.jpg" alt="Meteora, Greece — Monasteries on the Pillars"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: Meteora, Greece. He stands on a rocky foreground ledge; behind him a Byzantine monastery sits on top of a sheer vertical rock pillar, with the green valley and soft mist below. Golden-hour side light, dramatic sky.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t1">★ Tier 1 — top banger</span>
-    <h2>Cappadocia, Turkey — Balloons &amp; Cave Churches</h2>
+    <h2>Cappadocia, Turkey — Balloons & Cave Churches</h2>
     <div class="where">Gateway: IST (Istanbul) → ASR/NAV (Kayseri/Nevşehir) • Reach: Turkish via Aeroplan/United (UR + MR)</div>
     <p class="why">Byzantine cave churches carved into the rock at Göreme — <i>and</i> the famous sunrise where 100+ hot-air balloons fill the valley. Folds right into a "Seven Churches of Revelation" Turkey trip. Your highest-odds banger.</p>
-    <div class="shot"><b>The shot:</b> sunrise on a cave-hotel terrace, you with coffee, balloons rising behind. Insta360 for the ascent if you splurge on a flight.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/cappadocia_p1.jpg" alt="Sunrise fleet of balloons over the valley">
-      <img loading="lazy" src="img/cappadocia_p2.jpg" alt="Balloons over white rock cliffs">
-      <img loading="lazy" src="img/cappadocia_p3.jpg" alt="Single hero balloon against blue sky">
-    </div>
+    <div class="shot"><b>The shot:</b> Sunrise on a cave-hotel terrace, you with coffee, balloons rising behind. Insta360 for the ascent if you splurge on a flight.</div>
+    <div class="grid"><img loading="lazy" src="img/cappadocia_p1.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p2.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p3.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p4.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p5.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p6.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"><img loading="lazy" src="img/cappadocia_p7.jpg" alt="Cappadocia, Turkey — Balloons & Cave Churches"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: a cave-hotel terrace in Goreme, Cappadocia at sunrise. Behind and above him, dozens of colorful hot-air balloons rise into a soft pastel dawn sky over the fairy-chimney valley. Calm warm morning light.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t2">Tier 2 — iconic but heavily shot</span>
     <h2>Petra, Jordan — The Treasury (Al-Khazneh)</h2>
-    <div class="where">Gateway: AMM (Amman) → ~3 hrs to Petra • Reach: via Aeroplan/partners. Pairs with Mount Nebo &amp; the baptism site.</div>
-    <p class="why">The rose-stone Treasury revealed through the slot canyon — a genuine jaw-dropper, just very photographed. The biblical-history pairing (Nebo, Bethany-beyond-the-Jordan) is what makes the trip.</p>
-    <div class="shot"><b>The shot:</b> stand small at the base for scale, or frame it through the dark canyon walls (the "Indiana Jones" reveal).</div>
-    <div class="grid">
-      <img loading="lazy" src="img/petra_p1.jpg" alt="Full Treasury facade with people for scale">
-      <img loading="lazy" src="img/petra_p2.jpg" alt="People walking toward the Treasury through the canyon">
-      <img loading="lazy" src="img/petra_p3.jpg" alt="Treasury framed by canyon walls">
-    </div>
+    <div class="where">Gateway: AMM (Amman) → ~3 hrs to Petra • Reach: via Aeroplan/partners. Pairs with Mount Nebo & the baptism site.</div>
+    <p class="why">The rose-stone Treasury revealed through the slot canyon — a genuine jaw-dropper, just very photographed. The biblical-history pairing (Nebo, Bethany-beyond-the-Jordan) is what makes the trip. You called this one out — recognizable, photogenic, definitely a cool shot.</p>
+    <div class="shot"><b>The shot:</b> Stand small at the base for scale, or frame it through the dark Siq canyon walls (the "Indiana Jones" reveal).</div>
+    <div class="grid"><img loading="lazy" src="img/petra_p1.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p2.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p3.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p4.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p5.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p6.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"><img loading="lazy" src="img/petra_p7.jpg" alt="Petra, Jordan — The Treasury (Al-Khazneh)"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: directly in front of the Treasury (Al-Khazneh) in Petra, Jordan. He stands centered on the open sandy ground; the towering rose-red carved facade fills the frame behind him, lit by warm glancing daylight. Optionally a hint of the dark Siq canyon walls framing the edges.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t2">Tier 2 — iconic but heavily shot</span>
-    <h2>Jerusalem — The Old City &amp; Dome of the Rock</h2>
+    <h2>Jerusalem — The Old City & Dome of the Rock</h2>
     <div class="where">Gateway: TLV (Tel Aviv) → ~1 hr to Jerusalem • The Holy Land core: Via Dolorosa, Western Wall, Galilee, Bethlehem.</div>
     <p class="why">The gold dome over the Old City at golden hour is the signature Jerusalem frame. Deepest significance of anywhere on the list; the photo is classic rather than novel.</p>
     <div class="shot"><b>The shot:</b> Mount of Olives overlook at sunrise — you in the foreground, the gold dome and Old City walls catching first light.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/jerusalem_p1.jpg" alt="Gold Dome of the Rock close, dramatic">
-      <img loading="lazy" src="img/jerusalem_p2.jpg" alt="Dome framed through an archway">
-      <img loading="lazy" src="img/jerusalem_p3.jpg" alt="Classic Dome of the Rock with second dome">
-    </div>
+    <div class="grid"><img loading="lazy" src="img/jerusalem_p1.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p2.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p3.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p4.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p5.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p6.jpg" alt="Jerusalem — The Old City & Dome of the Rock"><img loading="lazy" src="img/jerusalem_p7.jpg" alt="Jerusalem — The Old City & Dome of the Rock"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: the Mount of Olives overlook in Jerusalem at sunrise. He stands in the foreground; behind him the golden Dome of the Rock and the walls and rooftops of the Old City catch warm first light.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t2">Tier 2 — iconic but heavily shot</span>
     <h2>Hagia Sophia, Istanbul — Byzantine Interior</h2>
     <div class="where">Gateway: IST (Istanbul) • Reach: Turkish via Aeroplan/United (UR + MR). Easy to combine with Cappadocia.</div>
     <p class="why">1,500 years of Christian then imperial history under one dome — gold mosaics of Christ, soaring arches. A crowded indoor shot, but the mosaics are unmatched.</p>
-    <div class="shot"><b>The shot:</b> the Christ Pantocrator / Deesis mosaic on the upper gallery, or you small beneath the main dome looking up.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/hagiasophia_p1.jpg" alt="Christ Deesis mosaic">
-      <img loading="lazy" src="img/hagiasophia_p2.jpg" alt="Interior arches and gold ceiling">
-      <img loading="lazy" src="img/hagiasophia_p3.jpg" alt="Interior dome and mosaics">
-    </div>
+    <div class="shot"><b>The shot:</b> Stand small beneath the main dome looking up, or by the gold Deesis / Madonna mosaics on the upper gallery.</div>
+    <div class="grid"><img loading="lazy" src="img/hagiasophia_p1.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p2.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p3.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p4.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p5.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p6.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"><img loading="lazy" src="img/hagiasophia_p7.jpg" alt="Hagia Sophia, Istanbul — Byzantine Interior"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: inside Hagia Sophia, Istanbul. He stands small beneath the vast central dome, looking up; gold Byzantine mosaics, giant calligraphy roundels, and soaring arches surround him. Soft diffused interior light through high windows.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
   <div class="card">
     <span class="tier t2">Tier 2 — iconic but heavily shot</span>
     <h2>Vatican / St. Peter's, Rome</h2>
     <div class="where">Gateway: FCO (Rome) • Reach: best award space of the bunch (United, Aer Lingus, Flying Blue, etc.).</div>
-    <p class="why">St. Peter's Basilica and Bernini's colonnade — early-church history (catacombs, Peter &amp; Paul) plus the grandest square in Christendom. Magnificent, but the "everyone has this" shot.</p>
-    <div class="shot"><b>The shot:</b> the basilica floodlit at blue hour from the end of Via della Conciliazione, or centered under the obelisk with the colonnade sweeping around you.</div>
-    <div class="grid">
-      <img loading="lazy" src="img/vatican_p1.jpg" alt="St. Peter's Basilica at dusk">
-      <img loading="lazy" src="img/vatican_p2.jpg" alt="Obelisk and colonnade of St. Peter's Square">
-      <img loading="lazy" src="img/vatican_p3.jpg" alt="Wide St. Peter's Square with crowds">
-    </div>
+    <p class="why">St. Peter's Basilica and Bernini's colonnade — early-church history (catacombs, Peter & Paul) plus the grandest square in Christendom. Magnificent, but the "everyone has this" shot.</p>
+    <div class="shot"><b>The shot:</b> Centered under the obelisk with the colonnade sweeping around you, or the basilica at blue hour from Via della Conciliazione.</div>
+    <div class="grid"><img loading="lazy" src="img/vatican_p1.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p2.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p3.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p4.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p5.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p6.jpg" alt="Vatican / St. Peter's, Rome"><img loading="lazy" src="img/vatican_p7.jpg" alt="Vatican / St. Peter's, Rome"></div>
+    <button class="mk" data-p="Using the attached photo of me for an accurate likeness, generate a photorealistic travel photograph. Subject: a lean East Asian man with a clean-shaven/bald head, wearing a fitted plain black crew-neck t-shirt, black slim pants, and white sneakers. He stands CENTERED and small-to-medium in the frame to show the scale of the place, the way a high-end Instagram travel photo is composed. Wide-angle lens, natural light, muted editorial color grade, sharp and realistic. Keep my face and head shape accurate. No text or watermarks. Setting: St. Peter's Square, Vatican City, early morning with few people. He stands centered beneath the tall Egyptian obelisk; Bernini's curved colonnade sweeps symmetrically around him and St. Peter's Basilica dome rises behind. Cool blue-hour-to-dawn light.">📸 Copy “put me in this shot” prompt</button>
   </div>
-
 </main>
-<footer>
-  Photos: Wikimedia Commons (illustrative — these are what the locations look like, not edited mockups of you).
-  Built as a travel-taste scout for the deal agent. Private &amp; unindexed.
-</footer>
-
+<footer>Reference photos: Wikimedia Commons (illustrative — these show the place &amp; the achievable angle, not edited images of you). The “Copy prompt” button is how you turn one into a you-there mockup. Private &amp; unindexed.</footer>
 <script>
-// tap-to-enlarge lightbox
 document.querySelectorAll('.grid img').forEach(function(img){
-  img.addEventListener('click', function(){
-    var o=document.createElement('div');
-    o.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;z-index:99;padding:12px';
-    var big=document.createElement('img');
-    big.src=img.src; big.style.cssText='max-width:100%;max-height:100%;border-radius:8px';
-    o.appendChild(big); o.addEventListener('click',function(){o.remove()});
-    document.body.appendChild(o);
+ img.addEventListener('click',function(){
+  var o=document.createElement('div');
+  o.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.93);display:flex;align-items:center;justify-content:center;z-index:99;padding:12px';
+  var b=document.createElement('img');b.src=img.src;b.style.cssText='max-width:100%;max-height:100%;border-radius:8px';
+  o.appendChild(b);o.onclick=function(){o.remove()};document.body.appendChild(o);
+ });
+});
+document.querySelectorAll('.mk').forEach(function(btn){
+ btn.addEventListener('click',function(){
+  var t=btn.getAttribute('data-p');
+  navigator.clipboard.writeText(t).then(function(){
+   var old=btn.textContent;btn.textContent='✓ Copied — paste into ChatGPT with your selfie';
+   setTimeout(function(){btn.textContent=old},2200);
+  },function(){
+   var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+   try{document.execCommand('copy')}catch(e){}ta.remove();
+   var old=btn.textContent;btn.textContent='✓ Copied';setTimeout(function(){btn.textContent=old},2200);
   });
+ });
 });
 </script>
-</body>
-</html>
+</body></html>
